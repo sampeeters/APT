@@ -2,7 +2,9 @@
 title: "Git test"
 author: "me"
 date: "13 September 2018"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
