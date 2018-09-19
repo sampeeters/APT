@@ -32,7 +32,10 @@ AND (   (    SAM_ID = 209362678
                 AND lobt < '02-sep-2017')
         OR (    SAM_ID = 213622811
                 AND lobt >= '10-dec-2017'
-                AND lobt < '11-dec-2017'))
+                AND lobt < '11-dec-2017')
+OR (sam_ID = 220401462
+             AND lobt >= '07-jul-2018'
+             AND lobt < '08-jul-2018'))
 AND model_type = 'CPF'")
 
 dbDisconnect(con)
